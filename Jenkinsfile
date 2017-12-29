@@ -13,6 +13,11 @@ pipeline {
             bat(script: 'echo "Yes, it works."', returnStatus: true)
           }
         }
+        stage('') {
+          steps {
+            bat(script: 'C:\\Users\\Toto\\Documents\\GitHub\\startET.bat', returnStatus: true)
+          }
+        }
       }
     }
   }
